@@ -1,0 +1,113 @@
+
+body {
+  font-size: calc(1rem + 1vw);
+}
+
+h2 {
+  font-size: calc(15px + 1vw);
+  margin: 4vw auto;
+}
+
+.row {
+  margin: 25px auto;
+}
+
+/*  Sections       */
+
+section {
+  background-color: #EDEDED;
+  color: #2B2B2B;
+  padding: 15px;
+}
+
+.encercle:before, .encercle:after {
+  content: "";
+  display: block;
+  margin: 0 10px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 1px #cc5f00, inset 1px 1px 1px #cc5f00;
+  border: 4px solid #FF7700;
+}
+
+.cercle:before {
+  content: "";
+  display: block;
+  margin: 0 10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 3px 3px 3px #cccc00, inset 3px 3px 3px #cccc00;
+  border: 13.6363636364px solid yellow;
+}
+
+.chaine-ring:nth-of-type(1) {
+  border-radius: 50%;
+  height: 47px;
+  width: 47px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 1px #4d4d4d, inset 1px 1px 1px #4d4d4d;
+  border: 4.5px solid #666666;
+  margin-right: -18px;
+}
+
+.chaine-ring:nth-of-type(2) {
+  border-radius: 50%;
+  height: 58px;
+  width: 58px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 1px #4d4d4d, inset 1px 1px 1px #4d4d4d;
+  border: 5px solid #666666;
+  margin-right: -24.5px;
+}
+
+.chaine-ring:nth-of-type(3) {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1.5px 1.5px 1.5px #4d4d4d, inset 1.5px 1.5px 1.5px #4d4d4d;
+  border: 6.5px solid #666666;
+  margin-right: -30.625px;
+}
+
+.chaine-ring:nth-of-type(4) {
+  border-radius: 50%;
+  height: 82px;
+  width: 82px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1.5px 1.5px 1.5px #4d4d4d, inset 1.5px 1.5px 1.5px #4d4d4d;
+  border: 7.5px solid #666666;
+  margin-right: -37px;
+}
+
+.chaine-ring:nth-of-type(5) {
+  border-radius: 50%;
+  height: 93px;
+  width: 93px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 2px 2px 2px #4d4d4d, inset 2px 2px 2px #4d4d4d;
+  border: 9px solid #666666;
+  margin-right: -43px;
+}
+
+.chaine-ring:nth-of-type(6) {
+  border-radius: 50%;
+  height: 105px;
+  width: 105px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 2px 2px 2px #4d4d4d, inset 2px 2px 2px #4d4d4d;
+  border: 10px solid #666666;
+  margin-right: -50px;
+}
