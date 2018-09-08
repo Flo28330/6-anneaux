@@ -1,0 +1,45 @@
+body {
+  font-size: calc(1rem + 1vw);
+}
+
+h2 {
+  font-size: calc(15px + 1vw);
+  margin: 4vw auto;
+}
+
+.row {
+  margin: 25px auto;
+}
+
+section {
+  background-color: $background-color;
+  color: $main-font-color;
+  padding: 15px;
+}
+
+
+
+.encercle {
+  &:before, &:after {
+    content: "";
+    display: block;
+    margin: 0 10px;
+    @include ring(45px, $main-color);
+  }
+}
+
+.cercle {
+  &:before {
+    content: "";
+    display: block;
+    margin: 0 10px;
+    @include ring(150px, $golden);
+  }
+}
+
+@for $i from 1 through 6 {
+  .chained-ring:nth-of-type(#{$i}) {
+    @include ring(35px * (1+($i/3)), $separator);
+    margin-right: -((35px * (1+($i/2)))*0.35);
+  }
+}
